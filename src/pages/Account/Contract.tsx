@@ -107,7 +107,7 @@ const Contract = ({ address, admin, code, info, ...data }: Contract) => {
               .map((t, i) => (
                 <AmountCard
                   key={i}
-                  denom={t.name}
+                  denom={t.symbol}
                   amount={t.balance}
                   icon={t.icon}
                 />
